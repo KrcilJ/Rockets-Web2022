@@ -279,11 +279,11 @@ background-color: none !important;
  .partnerRow {
      padding-bottom: 30px;
  }
- 
+ @media (max-width:760px) {
  .partnerCol {
      padding-bottom: 30px;
  }
- 
+}
  #partnerH {
      font-size: 19px;
      color: #F3B600;

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="icon" type="image/png" href="https://czechrockets.com/crs_logo_ico.png"/>
     <!-- Bootstrap importy -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <!-- Style -->
@@ -14,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
-
+	<title>Stopař | Czech Rocket Society</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 </head>
@@ -31,10 +32,10 @@
                     </li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/oNas.html">O
                             NÁS</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">PROJEKTY&nbsp;</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="/stopar.html">Stopař</a><a class="dropdown-item" href="/cansat.html" target="_parent">CanSat</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link nav-linkactive" aria-expanded="false" data-toggle="dropdown" href="#">PROJEKTY&nbsp;</a>
+                        <div class="dropdown-menu"><a class="dropdown-item nav-linkactive" href="/stopar.html">Stopař</a><a class="dropdown-item" href="/cansat.html" target="_parent">CanSat</a>
 
-                            <a class="dropdown-item" target="_parent" href="/czechRocketChallange.html">Czech Rocket Challenge</a>
+                            <a class="dropdown-item" target="_parent" href="/czechrocketchallenge.html">Czech Rocket Challenge</a>
                             <a class="dropdown-item" target="_parent" href="/thundercat.html">Thundercat</a>
                             <a class="dropdown-item" target="_parent" href="/cassiopeia.html">Cassiopeia</a>
 
@@ -70,7 +71,7 @@
             <div id="darkBackground">
                 <div class="col-8 col-lg-8 mx-auto" id="welcomeTextCol">
                     <p id="welcomeText">Stopař je historicky vůbec prvním projektem Czech Rocket Society. Spolek se pro název rakety nechal inspirovat oblíbenou fantasy knihou <em>Stopařův průvodce po galaxii</em> od anglického autora Douglase Adamse. Po technické stránce
-                        se raketa podobá těm, které startují v rámci <a href="https://www.esa-bic.cz/wp-content/uploads/Pravidla-a-hodnocen%C3%AD-2.pdf" target="_blank">Czech Rocket Challenge</a>, s tím rozdílem, že členové CRS budují všechny komponenty
+                        se raketa podobá těm, které startují v rámci <a href="https://www.czechrocketchallenge.cz" target="_blank">Czech Rocket Challenge</a>, s tím rozdílem, že členové CRS budují všechny komponenty
                         rakety od základů sami.<br></p>
 
                 </div>
@@ -325,7 +326,7 @@
 
                             <li><a href="/cansat.html ">Cansat</a></li>
                             <li><a href="/stopar.html ">Stopař</a></li>
-                            <li><a href="czechRocketChallange.html" target="_blank ">Czech Rocket Challenge</a>
+                            <li><a href="czechrocketchallenge.html" target="_blank ">Czech Rocket Challenge</a>
                             </li>
                             <li><a href="/thundercat.html ">Thundercat</a></li>
                             <li><a href="/cassiopeia.html ">Cassiopeia</a></li>
@@ -348,43 +349,50 @@
                     </div>
                 </div>
 
-                <div class="text-center ">
-                    <h3 id="partnerH" class="text-center">Partneři</h3>
-                    <div class="container">
-                        <div class="row justify-content-center align-items-center partnerRow">
-                            <div class="col-md-3 align-self-center partnerCol">
-                                <a href="https://stinn.cz/ "><img class="img-fluid" src="/assets/img/logos/Stinn-logo-bile.png" style="max-height: 65px;"></a>
-                            </div>
-                            <div class="col-md-3 text-center align-self-center partnerCol">
-                                <a target="_blank " href="http://www.advacam.com "><img class="img-fluid " src="/assets/img/logos/Advacam-svetle.png "></a>
-                            </div>
-                            <div class="col-md-3 align-self-center partnerCol ">
-                                <a target="_blank " href="http://www.malcomcz.eu "><img class="img-fluid " src="/assets/img/logos/malcomcz.svg "></a>
-                            </div>
-                        </div>
-                        <div class="row justify-content-center align-items-center">
-                            <div class="col-md-3 text-center align-self-center partnerCol">
-                                <a target="_blank " href="https://www.stratosyst.com/ "><img class="img-fluid " style="min-height: 25px;" src="/assets/img/logos/stratotystLogo2.png "></a>
-                            </div>
+				<div class="text-center ">
+					<h3 id="partnerH" class="text-center">Partneři</h3>
+					<div class="container">
+						<div class="row justify-content-center align-items-center partnerRow">
+							<div class="col-md-3 text-center align-self-center partnerCol">
+								<a target="_blank " href="http://www.advacam.com "><img class="img-fluid " src="/assets/img/logos/Advacam-svetle.png "></a>
+							</div>
+							<div class="col-md-3 align-self-center partnerCol ">
+								<a target="_blank " href="http://www.planetum.cz "><img class="img-fluid " src="/assets/img/logos/planetum_tranpa_orez.png "></a>
+							</div>
+							<div class="col-md-3 align-self-center partnerCol ">
+								<a target="_blank " href="https://qminers.com/ "><img class="img-fluid " src="/assets/img/logos/qminers.svg "></a>
+							</div>
+							<div class="col-md-3 text-center align-self-center partnerCol">
+								<a target="_blank " href="https://www.stratosyst.com/ "><img class="img-fluid " style="min-height: 25px;" src="/assets/img/logos/stratotystLogo2.png "></a>
+							</div>
+						</div>
+						<div class="row justify-content-center align-items-center">
+							<div class="col-md-3 align-self-center partnerCol ">
+								<a target="_blank " href="https://www.certicon.cz/ "><img class="img-fluid " src="/assets/img/logos/certiconLogo.png "></a>
+							</div>
+							<div class="col-md-3 align-self-center partnerCol  ">
+								<a target="_blank " href="http://www.akka-technologies.com/czech-republic "><img class="img-fluid " src="/assets/img/logos/AKKODIS_Logo_NEG_RGB.png "></a>
+							</div>
+							<div class="col-md-3 align-self-center partnerCol ">
+								<a target="_blank " href="https://www.ohb-czech.cz/cz/ "><img class="img-fluid " src="/assets/img/logos/ohb.png "></a>
+							</div>
+							<div class="col-md-3 align-self-center partnerCol">
+								<a target="_blank " href="https://stinn.cz/ "><img class="img-fluid" src="/assets/img/logos/Stinn-logo-bile.png" style="max-height: 65px;"></a>
+							</div>
+						</div>
+						<div class="row justify-content-center align-items-center">
+							<div class="col-md-3 align-self-center partnerCol ">
+								<a target="_blank " href="http://www.malcomcz.eu "><img class="img-fluid " src="/assets/img/logos/malcomcz.svg "></a>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                            <div class="col-md-3 align-self-center partnerCol  ">
-                                <a target="_blank " href="http://www.akka-technologies.com/czech-republic "><img class="img-fluid " src="/assets/img/logos/AKKODIS_Logo_NEG_RGB.png "></a>
-                            </div>
-
-                            <div class="col-md-3 align-self-center partnerCol ">
-                                <a target="_blank " href="http://www.planetum.cz "><img class="img-fluid " src="/assets/img/logos/planetum_tranpa_orez.png "></a>
-                            </div>
-                            <div class="col-md-3 align-self-center partnerCol ">
-                                <a target="_blank " href="https://www.certicon.cz/ "><img class="img-fluid " src="/assets/img/logos/certiconLogo.png "></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <!-- Do budoucna novej donate button -->
                 <div class="row justify-content-center">
                     <div class="col-11 text-center">
-                        <p class="d-lg-flex justify-content-lg-center align-items-lg-center copyright">Czech Rocket Society z. s. © 2022</p>
+                        <p class="d-lg-flex justify-content-lg-center align-items-lg-center copyright">Czech Rocket Society z. s. © 2023</p>
                         <div id="donate-button-container">
                             <div id="donate-button"></div>
                             <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
